@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+C:\Users\hayda\OneDrive\Masaüstü\project\MusicWorkspace\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2212477120.index
-963046524.index
-2184929973.index
-3441001813.index

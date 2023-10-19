@@ -50,13 +50,13 @@ public class Converter {
   public static void getMidiNoteMap(String fileName) throws InvalidMidiDataException, IOException {
     File midiFile = new File(fileName);
     Sequence sequence = MidiSystem.getSequence(midiFile);
-    int haydar = 0;
+    int trackIndex = 0;
     byte b1;
     int i;
     Track[] arrayOfTrack1;
     for (i = (arrayOfTrack1 = sequence.getTracks()).length, b1 = 0; b1 < i; ) {
       Track track = arrayOfTrack1[b1];
-      System.out.println("track" + ++haydar + " sice: " + track.size());
+      System.out.println("track" + ++trackIndex + " size: " + track.size());
       b1++;
     } 
     Tablature tablature = new Tablature();
